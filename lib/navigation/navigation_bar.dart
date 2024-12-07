@@ -25,6 +25,7 @@ class _MyNavigationBarState extends State<MyNavigationBar> {
         child: MyRoute.widgetOptions.elementAt(_selectedIndex),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.white,
         showSelectedLabels: false,
         showUnselectedLabels: false,
         items: <BottomNavigationBarItem>[
